@@ -3,9 +3,27 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Vinicius Bastos</title>
+<title>Vinicius Bastos Marcos</title>
 
 <style>
+
+:root{
+--bg:#fafafa;
+--text:#333;
+--card:#ffffff;
+--border:#e5e5e5;
+--link:#1a73e8;
+}
+
+@media (prefers-color-scheme: dark){
+:root{
+--bg:#121212;
+--text:#e4e4e4;
+--card:#1e1e1e;
+--border:#333;
+--link:#6aa8ff;
+}
+}
 
 body{
 font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;
@@ -13,8 +31,8 @@ max-width:1000px;
 margin:auto;
 padding:40px 20px;
 line-height:1.6;
-color:#333;
-background:#fafafa;
+color:var(--text);
+background:var(--bg);
 }
 
 header{
@@ -36,12 +54,12 @@ margin-bottom:5px;
 }
 
 .subtitle{
-color:#666;
+color:gray;
 margin-bottom:10px;
 }
 
 section{
-background:white;
+background:var(--card);
 padding:25px;
 margin-bottom:25px;
 border-radius:10px;
@@ -49,7 +67,7 @@ box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
 
 h2{
-border-bottom:2px solid #eee;
+border-bottom:2px solid var(--border);
 padding-bottom:6px;
 margin-bottom:15px;
 }
@@ -59,7 +77,7 @@ padding-left:18px;
 }
 
 a{
-color:#1a73e8;
+color:var(--link);
 text-decoration:none;
 }
 
@@ -75,7 +93,7 @@ font-weight:500;
 footer{
 text-align:center;
 margin-top:40px;
-color:#777;
+color:gray;
 }
 
 </style>
@@ -90,18 +108,19 @@ color:#777;
 
 <div>
 
-<div class="name">Vinicius Bastos</div>
+<div class="name">Vinicius Bastos Marcos</div>
 
 <div class="subtitle">
 Computational Physicist <br>
-PhD Student – IFSC, University of São Paulo
+PhD Student in Physics – IFSC, University of São Paulo
 </div>
 
 <div class="links">
-<a href="https://github.com/YOURUSER">GitHub</a>
-<a href="https://linkedin.com/in/YOURPROFILE">LinkedIn</a>
-<a href="https://scholar.google.com/">Google Scholar</a>
-<a href="https://orcid.org/">ORCID</a>
+<a href="https://github.com/vinibastosm">GitHub</a>
+<a href="https://www.linkedin.com/in/vin%C3%ADcius-bastos-marcos-4b3aa6317/">LinkedIn</a>
+<a href="https://lattes.cnpq.br/">Lattes</a>
+<a href="https://scholar.google.com/citations?hl=pt-BR&user=3j4LFuMAAAAJ">Google Scholar</a>
+<a href="https://orcid.org/0009-0009-8980-2168">ORCID</a>
 <a href="cv.pdf">CV</a>
 </div>
 
@@ -127,11 +146,12 @@ I am a computational physicist and PhD student in Experimental and Theoretical P
 
 <ul>
 
-<li>Nanophotonics</li>
-<li>Metasurfaces</li>
 <li>Light–matter interaction</li>
-<li>Machine learning for photonics</li>
-<li>Electromagnetic simulations (FDTD)</li>
+<li>Quantum Nanophotonics</li>
+<li>Plasmonics</li>
+<li>Deep Learning</li>
+<li>Physics-Informed Machine Learning</li>
+<li>Numerical Simulations</li>
 
 </ul>
 
@@ -139,15 +159,18 @@ I am a computational physicist and PhD student in Experimental and Theoretical P
 
 <section>
 
-<h2>Projects</h2>
+<h2>Publications</h2>
 
 <ul>
 
-<li>Machine learning for inverse design of nanopho structures</li>
-<li>FDTD simulations of plasmonic systems</li>
-<li>Physics-informed neural networks for electromagnetism</li>
+<li>Coming soon.</li>
 
 </ul>
+
+<p>
+Full list available on
+<a href="https://scholar.google.com/citations?hl=pt-BR&user=3j4LFuMAAAAJ">Google Scholar</a>.
+</p>
 
 </section>
 
@@ -157,14 +180,14 @@ I am a computational physicist and PhD student in Experimental and Theoretical P
 
 <p>
 Feel free to contact me via email:
-<a href="mailto:vinicius@email.com">vinicius@email.com</a>
+<a href="mailto:viniciusbmarcos@usp.br">viniciusbmarcos@usp.br</a>
 </p>
 
 </section>
 
 <footer>
 
-© 2026 Vinicius Bastos
+© 2026 Vinicius Bastos Marcos
 
 </footer>
 
